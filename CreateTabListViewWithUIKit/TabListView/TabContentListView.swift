@@ -8,7 +8,7 @@
 import SwiftUI
 import UIKit
 
-struct TabListView: View, UIViewControllerRepresentable {
+struct TabContentListView: View, UIViewControllerRepresentable {
     
     func makeCoordinator() -> Coodinator {
         Coodinator()
@@ -66,8 +66,8 @@ struct TabListView: View, UIViewControllerRepresentable {
     }
 }
 
-struct TabListView_Previews: PreviewProvider {
+struct TabContentListView_Previews: PreviewProvider {
     static var previews: some View {
-        TabListView()
+        TabContentListView()
     }
 }
